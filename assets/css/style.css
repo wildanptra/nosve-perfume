@@ -1,0 +1,96 @@
+@font-face {
+    font-family: couture;
+    src: url('couture-bld.otf');
+}
+
+@font-face {
+    font-family: couture2;
+    src: url('couture-bldit.otf');
+}
+
+* {
+    margin:0;
+    padding: 0;
+    font-family: couture, couture2 !important;
+}
+
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+
+.opColor {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+h1 {
+    margin-top: 100px;
+}
+
+.nav-list {
+    font-size: 1.5em !important;
+}
+
+.divider {
+    border-bottom: 1px solid black;
+}
+
+.about {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+#title{
+    font-size: 1.5em;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;
+}
+
+#logo {
+    width: 50px;
+    transition: 0.4s !important; 
+}
+
+#navbar #logo {
+    transition: 0.4s;
+}
+
+@media screen and (max-width:580px) {
+    #navbar {
+      padding: 10px 5px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+    }
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+
+.button-store {
+    width: 100%;
+    max-width: 400px;
+}
+
+.logo-bottom-product {
+    margin-top: 50px;
+}
+
+.testimonial-text{
+    font-family: 'Open Sans', sans-serif !important;
+    text-align: center;
+}
