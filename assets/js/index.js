@@ -28,7 +28,7 @@ $(document).ready(function(){
         }
     })
     
-    $('.nav-item a .btnAbout').click(funciton(e) {
+    $('.nav-item a .btnAbout').click(function(e) {
        e.preventDefault()
        $('html, body').animate({
         scrollDown: $('#about-section').offset().down
