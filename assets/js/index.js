@@ -28,7 +28,7 @@ $(document).ready(function(){
         }
     })
     
-    $('.nav-item a .btnAbout').click(function(e) {
+    $('.nav-item a').click(function(e) {
   // Add smooth scrolling to all links
 
   // Make sure this.hash has a value before overriding default behavior
