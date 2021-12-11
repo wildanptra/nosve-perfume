@@ -27,11 +27,11 @@ $(document).ready(function(){
             }
         }
     })
-});
-
-$('.nav-item a .btnAbout').click(function(e) => {
-   e.preventDefault()
-   $('html, body').animate({
-    scrollDown: $('#about-section').offset().down
-   },2000)
+    
+    $('.nav-item a .btnAbout').click(funciton(e) {
+       e.preventDefault()
+       $('html, body').animate({
+        scrollDown: $('#about-section').offset().down
+       },2000)
+    });
 });
