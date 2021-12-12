@@ -46,7 +46,7 @@ window.addEventListener('scroll', () => {
 })
 
 $(document).ready(function(){
-<<<<<<< HEAD
+
   $('.owl-carousel').owlCarousel({
       loop:false,
       margin:10,
@@ -76,7 +76,7 @@ $(document).ready(function(){
       });
     }
   });
-=======
+
     $('.owl-carousel').owlCarousel({
         loop:false,
         margin:10,
@@ -115,5 +115,4 @@ $(document).ready(function(){
           });
         } // End if
       });
->>>>>>> 725c84e4f49306651ddf2ce395a3030f3d05484b
 });
