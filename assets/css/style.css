@@ -12,6 +12,7 @@
     margin:0;
     padding: 0;
     font-family: couture, couture2 !important;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -67,11 +68,72 @@ h1 {
     margin-bottom: -5px;
 }
 
+#about-section {
+  padding-top: 95px;
+}
+
+#about-page {
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+
+#product-page {
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+
+#gallery-page {
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1s ease-in-out;
+}
+
+.page-active {
+  opacity: 1 !important;
+  transform: scale(1) !important;
+}
+
+#about-section > .container {
+  padding: 10px;
+}
 
 @media screen and (max-width:580px) {
     #navbar {
       padding: 10px 5px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
     }
+
+    #carouselExampleIndicators {
+      margin-top: 30px;
+      margin-bottom: -85px;
+    }
+
+    /* About */
+
+    #about-section {
+      padding-top: 20px;
+    }
+
+    #about-section > .container > .row > .col-md-6 > h1 {
+      font-size: 25px;
+    }
+
+    #about-section > .container > .row > .col-md-6 > img {
+      max-height: 400px;
+    }
+
+    /* End About */
+
+    /* Product */
+    #product-section > .row > .col-md-12 > h1 {
+      font-size: 32px;
+    }
+
+    .d-md-flex > .col-md-6 > .bg-dark > img {
+      max-width: 150px;
+    }
+    /* End Product */
 }
 
 /*
@@ -81,7 +143,13 @@ h1 {
 .flex-equal > * {
   flex: 1;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+
+  #carouselExampleIndicators {
+    margin-top: 30px;
+    margin-bottom: -80px;
+  }
+
   .flex-md-equal > * {
     flex: 1;
   }

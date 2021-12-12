@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
     <!-- Fav Icon -->
     <link rel="icon" href="assets/img/logo-dark.png" type="image/gif" sizes="16x16">
@@ -27,7 +27,7 @@
     <title>Nosve Perfume</title>
 
   </head>
-  <body>
+  <body id="main-section">
 
     <!-- Start Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light shadow-lg" id="navbar">
@@ -52,7 +52,7 @@
                         <a class="nav-link font-weight-bold mx-2" id="nav-link" href="#product-section">Product</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link font-weight-bold mx-2" id="nav-link" href="#gallery-page">Gallery</a>
+                        <a class="nav-link font-weight-bold mx-2" id="nav-link" href="#gallery-section">Gallery</a>
                     </li>
                 </ul>
             </div>
@@ -61,7 +61,7 @@
     <!-- End Navbar -->
 
     <!-- Slider -->
-    <div class="container col-md-12 col-sm-12" id="main-section">
+    <div class="container col-md-12">
         <div id="carouselExampleIndicators" class="carousel slide shadow-lg" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0"class="active"></li>
@@ -92,109 +92,115 @@
     <!-- End Slider -->
 
     <!-- About Us -->
-    <div class="container mb-5 mt-5 p-4 shadow-lg" id="about-section">
-        <div class="row mt-4 p-3 rounded">
-            <div class="col-md-6">
-                <h1 class="h1">About Nosve Perfume</h1>
-                <div class="divider"></div>
-                <blockquote class="blockquote mt-3">
-                    <p class="about">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque deleniti harum, explicabo, alias repellendus dolore debitis reiciendis facere iste cupiditate velit voluptates maxime magnam esse ratione aliquam ea assumenda quasi?
-                    </p>
-                    <footer class="blockquote-footer">
-                        EST. <cite title="Source Title">2021</cite>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="col-md-6">
-                <img src="assets/img/about.png" class="rounded" width="100%" height="500" alt="">
+    <section id="about-section">
+        <div class="container shadow-lg" id="about-page">
+            <div class="row mt-4 p-3 rounded">
+                <div class="col-md-6">
+                    <h1 class="h1">About Nosve Perfume</h1>
+                    <div class="divider"></div>
+                    <blockquote class="blockquote mt-3">
+                        <p class="about">
+                            NOSVE (Nirmala On Sign Vibes Emotional) 
+                        </p>
+                        <footer class="blockquote-footer">
+                            EST. <cite title="Source Title">2021</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/img/about.png" class="rounded" width="100%" height="500" alt="">
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- End About Us -->
 
     <!-- Product -->
-    <div class="container mb-5 mt-5" id="product-section">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Product of Nosve Perfume</h1>
-                <div class="divider"></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 shadow-lg rounded">
-                <div class="col-md-6 col-sm-12">
-                    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-                        <div class="my-3 py-3">
-                            <h2 class="display-4">Eau de Parfum</h2>
-                            <p class="display-6">Please go to the shop link beside this</p>
-                        </div>
-                        <img src="assets/img/logo.png" alt="" width="80%" class="mb-5">
-                    </div>
+    <section id="product-section">
+        <div class="container" id="product-page">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Product of Nosve Perfume</h1>
+                    <div class="divider"></div>
                 </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-                        <div class="p-3 mt-auto">
-                            <h2 class="display-5">OUR ONLINE NOSVE SHOP</h2>
-                            <p class="display-5 text-product">For catalouge product and order click on the link below</p>
-                            <button class="btn btn-outline-dark btn-lg shadow-lg mt-5 button-store">
-                                <div class="d-flex justify-content-between">
-                                    <h3>Shopee</h3> 
-                                    <img src="assets/img/shopee.png" class="rounded" width="40" alt="">
+            </div>
+            <div class="row">
+                <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 shadow-lg rounded">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                            <div class="my-3 py-3">
+                                <h2 class="display-4">Eau de Parfum</h2>
+                                <p class="display-6">Please go to the shop link beside this</p>
+                            </div>
+                            <img src="assets/img/logo.png" alt="" width="80%" class="mb-5">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                            <div class="p-3 mt-auto">
+                                <h2 class="display-5">OUR ONLINE NOSVE SHOP</h2>
+                                <p class="display-5 text-product">For catalouge product and order click on the link below</p>
+                                <a href="https://shopee.co.id/nosveperfume" target="_blank" class="btn btn-outline-dark btn-lg shadow-lg mt-5 button-store">
+                                    <div class="d-flex justify-content-between">
+                                        <h3>Shopee</h3> 
+                                        <img src="assets/img/shopee.png" class="rounded" width="40" alt="">
+                                    </div>
+                                </a>
+                                <a href="https://www.lazada.co.id/shop/nosve-perfume/" target="_blank" class="btn btn-outline-dark btn-lg shadow-lg mt-5 button-store">
+                                    <div class="d-flex justify-content-between">
+                                        <h3>Lazada</h3> 
+                                        <img src="assets/img/lazada.png" class="rounded" width="40" alt="">
+                                    </div>
+                                </a>
+                                <a href="https://wa.me/6285772466422" target="_blank" class="btn btn-outline-dark btn-lg shadow-lg mt-5 button-store">
+                                    <div class="d-flex justify-content-between">
+                                        <h3>Whatsapp</h3> 
+                                        <img src="assets/img/whatsapp.png" class="rounded" width="40" alt="">
+                                    </div>
+                                </a>
+    
+                                <div class="d-flex justify-content-end mt-5">
+                                    <img src="assets/img/logo-dark.png" width="100" class="logo-bottom-product" alt="">
                                 </div>
-                            </button>
-                            <button class="btn btn-outline-dark btn-lg shadow-lg mt-5 button-store">
-                                <div class="d-flex justify-content-between">
-                                    <h3>Lazada</h3> 
-                                    <img src="assets/img/lazada.png" class="rounded" width="40" alt="">
-                                </div>
-                            </button>
-                            <button class="btn btn-outline-dark btn-lg shadow-lg mt-5 button-store">
-                                <div class="d-flex justify-content-between">
-                                    <h3>Whatsapp</h3> 
-                                    <img src="assets/img/whatsapp.png" class="rounded" width="40" alt="">
-                                </div>
-                            </button>
-
-                            <div class="d-flex justify-content-end mt-5">
-                                <img src="assets/img/logo-dark.png" width="100" class="logo-bottom-product" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- End Product -->
 
     <!-- Gallery -->
-    <div class="container mb-5 mt-5" id="gallery-page">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h1>Gallery</h1>
-                <div class="divider"></div>
+    <section id="gallery-section">
+        <div class="container" id="gallery-page">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>Gallery</h1>
+                    <div class="divider"></div>
+                </div>
+            </div>
+            <div class="row-image mt-4">
+                <div class="column">
+                    <img src="assets/img/about.png">
+                    <img src="assets/img/slider.png" alt="">
+                </div>
+                <div class="column">
+                    <img src="assets/img/slider.png" alt="">
+                    <img src="assets/img/slider.png" alt="">
+                    <iframe class="mt-2" width="100%" height="260" src="https://www.youtube.com/embed/7JPTlqRRf1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="column">
+                    <img src="assets/img/about.png">
+                    <img src="assets/img/about.png">
+                </div>
+                <div class="column">
+                    <img src="assets/img/about.png">
+                    <img src="assets/img/slider.png" alt="">
+                </div>
             </div>
         </div>
-        <div class="row-image mt-4">
-            <div class="column">
-                <img src="assets/img/about.png">
-                <img src="assets/img/slider.png" alt="">
-            </div>
-            <div class="column">
-                <img src="assets/img/slider.png" alt="">
-                <img src="assets/img/slider.png" alt="">
-                <iframe width="300" height="315" src="https://www.youtube.com/embed/7JPTlqRRf1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>v
-            <div class="column">
-                <img src="assets/img/about.png">
-                <img src="assets/img/about.png">
-            </div>
-            <div class="column">
-                <img src="assets/img/about.png">
-                <img src="assets/img/slider.png" alt="">
-            </div>
-        </div>
-    </div>
+    </section>
     <!-- End Gallery -->
 
     <!-- Footer -->
@@ -206,8 +212,8 @@
     <!-- End Footer -->
     
     <!-- jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery-3.6.0.js"></script>
+    <script src="assets//js/bootstrap.bundle.min.js"></script>
     <!-- OwlCarousel -->
     <script src="assets/js/owl.carousel.min.js"></script>
     <!--  Custom Javascript  -->
